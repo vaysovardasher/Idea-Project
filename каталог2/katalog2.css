@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  z-index: 3;
+  background-color: white;
+}
+.header {
+  width: 92%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.title1 {
+  font-size: 43px;
+  font-weight: 1300;
+  letter-spacing: 1px;
+  color: #00288e;
+}
+.link1 {
+  font-size: 18px;
+  text-decoration: none;
+  color: #00288e;
+  border-bottom: 2px solid #00288e;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: -8px;
+  margin-left: 25px;
+}
+.link2 {
+  font-size: 18px;
+  text-decoration: none;
+  color: grey;
+  margin-left: 25px;
+}
+.div1 {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 220px;
+}
+.icon1 {
+  width: 25px;
+  height: 25px;
+  padding: 7px;
+  background-color: #dde1ff;
+  border-radius: 50%;
+}
+.button1 {
+  width: 190px;
+  height: 6vh;
+  background-color: #00288e;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.section1 {
+  width: 100%;
+  padding: 130px 0 60px 0;
+  background-color: #fbf8ff;
+}
+.container1 {
+  width: 88%;
+  margin: auto;
+}
+.div2 {
+  display: flex;
+  gap: 18px;
+}
+.div3 {
+  width: 50%;
+  height: 520px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.button2 {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  width: 120px;
+  height: 32px;
+  background-color: #D4AF37;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.div4 {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.img2 {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.div5 {
+  position: relative;
+}
+.parag1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div6 {
+  display: flex;
+  gap: 35px;
+  margin-top: 35px;
+}
+.div7 {
+  width: 70%;
+}
+.title2 {
+  font-size: 34px;
+  color: #1d2238;
+  padding-bottom: 12px;
+}
+.parag2 {
+  font-size: 16px;
+  color: grey;
+  padding-bottom: 25px;
+}
+.title3 {
+  font-size: 34px;
+  color: #00288e;
+  padding-bottom: 30px;
+}
+.div8 {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #d8d8e8;
+  border-bottom: 1px solid #d8d8e8;
+  padding: 25px 0;
+  margin-bottom: 35px;
+}
+.parag3 {
+  font-size: 13px;
+  color: grey;
+  padding-bottom: 8px;
+}
+.title4 {
+  font-size: 20px;
+  color: #1d2238;
+}
+.title5 {
+  font-size: 26px;
+  color: #1d2238;
+  padding-bottom: 18px;
+}
+.parag4 {
+  font-size: 17px;
+  line-height: 28px;
+  color: grey;
+  padding-bottom: 30px;
+}
+.div9 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 35px;
+}
+.parag5 {
+  font-size: 16px;
+  color: green;
+}
+.div10 {
+  width: 100%;
+  height: 260px;
+  background-color: #d9d6e6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location1{
+    width: 36px;
+}
+.div11 {
+  width: 30%;
+}
+.div12 {
+  background-color: white;
+  border: 1px solid #d8d8e8;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.img3 {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.title6 {
+  font-size: 18px;
+  color: #1d2238;
+}
+.parag7 {
+  font-size: 13px;
+  color: grey;
+}
+.button3,
+.button4,
+.button5 {
+  width: 100%;
+  height: 45px;
+  border-radius: 7px;
+  font-size: 15px;
+  margin-top: 12px;
+}
+.button3 {
+  background-color: #00288e;
+  color: white;
+  border: none;
+}
+.button4 {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+  font-size: 16px;
+}
+.button5 {
+  background-color: #20aee5;
+  color: white;
+  border: none;
+}
+.parag8 {
+  text-align: center;
+  color: #00288e;
+  font-weight: bold;
+  padding: 22px 0;
+}
+.div13 {
+  background-color: #f1eff8;
+  border-left: 4px solid #00288e;
+  border-radius: 8px;
+  padding: 18px;
+}
+.title7 {
+  font-size: 17px;
+  color: #1d2238;
+  padding-bottom: 8px;
+}
+.parag9 {
+  font-size: 14px;
+  color: grey;
+  line-height: 22px;
+}
+.section2 {
+  width: 100%;
+  padding: 60px 0 80px 0;
+  background-color: #fbf8ff;
+}
+.div14 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.title8 {
+  font-size: 28px;
+  color: #1d2238;
+}
+.link {
+  text-decoration: none;
+  color: #00288e;
+  font-weight: bold;
+}
+.div15 {
+  display: flex;
+  justify-content: space-between;
+}
+.div16 {
+  width: 31%;
+  background-color: white;
+  border: 1px solid #d8d8e8;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.img4 {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.title9 {
+  font-size: 17px;
+  color: #1d2238;
+  padding: 12px 12px 5px 12px;
+}
+.parag10 {
+  color: #00288e;
+  font-weight: bold;
+  padding: 0 12px 6px 12px;
+}
+.parag11 {
+  font-size: 13px;
+  color: grey;
+  padding: 0 12px 14px 12px;
+}
+footer {
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #d8d8e8;
+}
+.container2 {
+  width: 88%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+.div17 {
+  width: 25%;
+}
+.title10 {
+  color: #00288e;
+  font-size: 38px;
+  padding-bottom: 12px;
+}
+.parag12 {
+  font-size: 18px;
+  color: grey;
+  line-height: 22px;
+}
+.div18 {
+  display: flex;
+  flex-direction: column;
+}
+.title11 {
+  font-size: 16px;
+  color: #1d2238;
+  padding-bottom: 12px;
+}
+.link3 {
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.div19 {
+  display: flex;
+}
+.input1 {
+  width: 170px;
+  height: 32px;
+  border: 1px solid #d8d8e8;
+  border-radius: 5px 0 0 5px;
+  padding-left: 10px;
+}
+.button6 {
+  width: 45px;
+  height: 34px;
+  background-color: #00288e;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+.parag13 {
+  text-align: center;
+  border-top: 1px solid #d8d8e8;
+  padding: 15px 0;
+  font-size: 13px;
+  color: grey;
+}
